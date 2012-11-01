@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">UglyClock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_my_clock">UglyClockActivity</string>
+    <string name="alarms">Alarms</string>
+    <string name="timer">Timer</string>
+    <string name="stopwatch">Stop Watch</string>
+    <string name="title_activity_alarms">AlarmsActivity</string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="title_activity_stop_watch">StopWatchActivity</string>
+    <string name="hours">hrs</string>
+    <string name="minutes">min</string>
+    <string name="seconds">sec</string>
+    <string name="startTimerButtonString">Start Timer</string>
+    <string name="startStopWatchButtonString">Start Stopwatch</string>
+    <string name="stopwatchRound">Round</string>
+    <string name="stopwatchFinish">Finished</string>
+    <string name="year">yr</string>
+    <string name="month">mth</string>
+    <string name="day">d</string>
+    <string name="save">Save Alarm</string>
+
+</resources>

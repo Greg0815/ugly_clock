@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/AlarmsDateInputFields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" >
+
+        <Spinner
+            android:id="@+id/AlarmsInputYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <Spinner
+            android:id="@+id/AlarmsInputMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/AlarmsInputYear" />
+
+        <Spinner
+            android:id="@+id/AlarmsInputDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/AlarmsInputMonth" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/AlarmsTimeInputFields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/AlarmsDateInputFields" >
+
+        <Spinner
+            android:id="@+id/AlarmsInputHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <Spinner
+            android:id="@+id/AlarmsInputMinute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/AlarmsInputHour" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/AlarmsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AlarmsTimeInputFields"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save" />
+
+</RelativeLayout>
